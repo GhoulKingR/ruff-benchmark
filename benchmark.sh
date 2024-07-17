@@ -62,6 +62,8 @@ prepare_test_folder
 benchmark_command "Pylint (linting)" "pylint $TEST_FOLDER/*.py"
 cleanup_test_folder
 
+pip install --force-reinstall ruff
+
 prepare_test_folder
 benchmark_command "Ruff (formatting)" "ruff format $TEST_FOLDER"
 rm -rf .ruff_cache/
