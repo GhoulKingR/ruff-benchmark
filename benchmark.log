@@ -1,0 +1,5 @@
+Ruff (linting) took 0 seconds
+Flake8 (linting) took 0 seconds
+Pylint (linting) took 0 seconds
+Ruff (formatting) took 0 seconds
+Black (formatting) took 1.0 seconds
